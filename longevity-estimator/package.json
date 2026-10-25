@@ -1,0 +1,53 @@
+
+{
+  "name": "longevity-estimator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A transparent actuarial life-expectancy estimation application with validated survival-model support.",
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "check": "npm run typecheck && npm run lint && npm run test",
+    "audit": "npm audit --audit-level=high"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.91.0",
+    "react-is": "^19.3.1",
+    "recharts": "^3.10.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.4.3",
+    "jsdom": "^27.1.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
+
