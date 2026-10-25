@@ -1,0 +1,73 @@
+{
+  "project": "Longevity Estimator documentation and configuration pack",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8579
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 7927
+    },
+    {
+      "path": "docs/calculation-methodology.md",
+      "bytes": 8722
+    },
+    {
+      "path": "docs/model-card-template.md",
+      "bytes": 5201
+    },
+    {
+      "path": "docs/model-validation.md",
+      "bytes": 7489
+    },
+    {
+      "path": "docs/mortality-data-sources.md",
+      "bytes": 5219
+    },
+    {
+      "path": "docs/privacy-and-security.md",
+      "bytes": 6885
+    },
+    {
+      "path": "docs/questionnaire-specification.md",
+      "bytes": 12737
+    },
+    {
+      "path": "docs/questionaire-specification.md",
+      "bytes": 12884
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 2200
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 950
+    },
+    {
+      "path": ".github/workflows/security-audit.yml",
+      "bytes": 1766
+    },
+    {
+      "path": "src/models/model-metadata/README.md",
+      "bytes": 1856
+    },
+    {
+      "path": "src/data/mortality/README.md",
+      "bytes": 1944
+    },
+    {
+      "path": "src/data/geographic/README.md",
+      "bytes": 1763
+    },
+    {
+      "path": ".env.example",
+      "bytes": 1025
+    }
+  ],
+  "notes": [
+    "Documents describe intended architecture; they do not claim a validated model or mortality dataset is already installed.",
+    "Both questionaire-specification.md (requested spelling) and questionnaire-specification.md (canonical spelling) are included."
+  ]
+}
